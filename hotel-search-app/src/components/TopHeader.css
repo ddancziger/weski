@@ -1,0 +1,241 @@
+.top-header-child {
+  align-self: stretch;
+  height: 92px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.proptechbuzz-all-rights-res {
+  width: 126px;
+  height: 20px;
+  position: relative;
+  z-index: 1;
+}
+.image {
+  width: 196.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.iconresort {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.la-plange {
+  width: 79px;
+  border: 0;
+  outline: 0;
+  font-family: var(--paragraph-p-200);
+  font-size: var(--paragraph-p-300-size);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  line-height: 145%;
+  color: var(--neutral-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.frame-child {
+  height: 31px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.iconresort-parent {
+  /* flex: 1; */
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  min-width: 139px;
+  z-index: 1;
+}
+.icongroup {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.people {
+  width: 69px;
+  border: 0;
+  outline: 0;
+  font-family: var(--paragraph-p-200);
+  font-size: var(--paragraph-p-300-size);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  line-height: 145%;
+  color: var(--neutral-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.frame-item {
+  height: 31px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.icongroup-parent {
+  /* flex: 1; */
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  min-width: 139px;
+  z-index: 1;
+}
+.iconcalendar {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dec-1- {
+  width: 115px;
+  border: 0;
+  outline: 0;
+  font-family: var(--paragraph-p-200);
+  font-size: var(--paragraph-p-300-size);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  line-height: 145%;
+  color: var(--neutral-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.frame-inner {
+  height: 31px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.iconcalendar-parent,
+.info-icons,
+.resort-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconcalendar-parent {
+  /* flex: 1; */
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  min-width: 139px;
+  z-index: 1;
+}
+.info-icons,
+.resort-info {
+  max-width: 100%;
+}
+.info-icons {
+  flex: 1;
+  gap: var(--gap-5xs-9);
+}
+.resort-info {
+  padding: 0 var(--padding-61xl);
+}
+.divider,
+.resort-info,
+.top-header {
+  align-self: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.divider {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutral-800);
+}
+.top-header {
+  height: 92px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+@media screen and (max-width: 1125px) {
+  .info-icons {
+    flex-wrap: wrap;
+  }
+  .top-header {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .la-plange {
+    flex: 1;
+    min-width: 100%;
+  }
+  .iconresort-parent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .people {
+    flex: 1;
+    min-width: 100%;
+  }
+  .icongroup-parent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .dec-1- {
+    flex: 1;
+    min-width: 100%;
+  }
+  .iconcalendar-parent,
+  .info-icons {
+    flex: unset;
+    align-self: stretch;
+  }
+  .info-icons,
+  .resort-info {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 750px) {
+  .resort-info {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

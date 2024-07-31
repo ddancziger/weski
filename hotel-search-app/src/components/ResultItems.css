@@ -1,0 +1,14 @@
+.result-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headline-h-300-size);
+  color: var(--blue-50);
+  font-family: var(--paragraph-p-200);
+}

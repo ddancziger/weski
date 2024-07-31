@@ -1,0 +1,20 @@
+.button-48px {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+@media screen and (max-width: 1025px) {
+  .button-48px {
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    min-width: 112;
+  }
+}
